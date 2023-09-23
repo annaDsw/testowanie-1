@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+__pycache__
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# pytest cache
+__pycache__/
+.pytest_cache/
+
+# IDE and editor-specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+__env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Output of the 'coverage' package
+htmlcov/
+
+# Scrapy project logs
+logs/
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache
+
+# Python-Markdown project
+/site
+
+# Django project settings
+local_settings.py
+
+# Docker Compose
+docker-compose.yml
+docker-compose.override.yml
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Poetry
+pyproject.toml
+poetry.lock
+
+# PyInstaller
+dist/
+build/
+
+# pipenv
+Pipfile.lock
+
+# virtualenv
+venv/
+ENV/
+env/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# End of file
