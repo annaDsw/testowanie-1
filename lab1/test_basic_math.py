@@ -1,6 +1,10 @@
 import basicMath
 import pytest
 
+# Some of the test are expecting result that may not be wanted,
+# but I am new to Python so I just wanted to get to know the possible operation
+# that's why in my tests for example adding strings is a correct way to use this function
+
 # add
 def test_add_when_positive_integer_given():
     assert basicMath.add(3, 4) == 7
@@ -13,7 +17,6 @@ def test_add_when_one_negative_integer():
 
 def test_add_when_string_given():
     assert basicMath.add("Hi ", "test") == "Hi test"
-
 
 def test_add_when_one_string_given():
     with pytest.raises(Exception):
